@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_course_author_features",
+  "info": {
+    "displayName": "features"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

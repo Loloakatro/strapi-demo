@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_course_features_course_features",
+  "info": {
+    "displayName": "course-features",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "features.features"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

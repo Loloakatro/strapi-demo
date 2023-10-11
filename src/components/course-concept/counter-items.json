@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_course_concept_counter_items",
+  "info": {
+    "displayName": "counterItems"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

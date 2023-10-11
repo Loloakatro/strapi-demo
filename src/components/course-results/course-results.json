@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_course_results_course_results",
+  "info": {
+    "displayName": "courseResults",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "items": {
+      "displayName": "items",
+      "type": "component",
+      "repeatable": true,
+      "component": "features.items"
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

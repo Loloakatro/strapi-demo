@@ -1,0 +1,103 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Головна сторінка",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "Hero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    },
+    "counter": {
+      "displayName": "Counter",
+      "type": "component",
+      "repeatable": false,
+      "component": "counter.counter"
+    },
+    "courseFeatures": {
+      "displayName": "course-features",
+      "type": "component",
+      "repeatable": false,
+      "component": "course-features.course-features"
+    },
+    "courseResults": {
+      "displayName": "courseResults",
+      "type": "component",
+      "repeatable": false,
+      "component": "course-results.course-results"
+    },
+    "courseProgram": {
+      "displayName": "courseProgram",
+      "type": "component",
+      "repeatable": false,
+      "component": "course-program.course-program"
+    },
+    "coursePlans": {
+      "displayName": "coursePlans",
+      "type": "component",
+      "repeatable": false,
+      "component": "course-plans.course-plans"
+    },
+    "courseAuthor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-author.course-author"
+    },
+    "sertificates": {
+      "displayName": "Sertificates",
+      "type": "component",
+      "repeatable": false,
+      "component": "sertificates.sertificates"
+    },
+    "reviews": {
+      "displayName": "Reviews",
+      "type": "component",
+      "repeatable": false,
+      "component": "reviews.reviews"
+    },
+    "courseStudy": {
+      "displayName": "courseStudy",
+      "type": "component",
+      "repeatable": false,
+      "component": "course-study.course-study"
+    },
+    "quote": {
+      "displayName": "authorQuote",
+      "type": "component",
+      "repeatable": false,
+      "component": "quote.author-quote"
+    },
+    "courseConcept": {
+      "displayName": "courseConcept",
+      "type": "component",
+      "repeatable": false,
+      "component": "course-concept.course-concept"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faq.faq"
+    },
+    "collapsibleCounter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "collapsible-counter.collapsible-counter"
+    }
+  }
+}

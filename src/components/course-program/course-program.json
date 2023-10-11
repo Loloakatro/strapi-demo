@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_course_program_course_programs",
+  "info": {
+    "displayName": "courseProgram",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "programItem": {
+      "displayName": "programItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "course-program.program-items"
+    }
+  }
+}

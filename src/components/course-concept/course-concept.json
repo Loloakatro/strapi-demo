@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_course_concept_course_concepts",
+  "info": {
+    "displayName": "courseConcept",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "conceptItems": {
+      "displayName": "conceptItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "course-concept.concept-items"
+    }
+  }
+}

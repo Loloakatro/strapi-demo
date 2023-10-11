@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_counter_counter_items",
+  "info": {
+    "displayName": "counter-items",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

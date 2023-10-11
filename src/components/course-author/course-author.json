@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_course_author_course_authors",
+  "info": {
+    "displayName": "courseAuthor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "age": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "course-author.features"
+    },
+    "counter": {
+      "displayName": "counterIcons",
+      "type": "component",
+      "repeatable": true,
+      "component": "counter.counter-icons"
+    }
+  }
+}

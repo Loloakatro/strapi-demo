@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_collapsible_counter_collapsible_items",
+  "info": {
+    "displayName": "collapsibleItems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_course_plans_plan_items",
+  "info": {
+    "displayName": "planItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

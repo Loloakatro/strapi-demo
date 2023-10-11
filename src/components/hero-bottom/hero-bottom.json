@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_hero_bottom_hero_bottoms",
+  "info": {
+    "displayName": "heroBottom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "hero-bottom.features"
+    }
+  }
+}

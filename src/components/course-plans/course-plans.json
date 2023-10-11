@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_course_plans_course_plans",
+  "info": {
+    "displayName": "coursePlans",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course-plans.plan-items"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_header_navigation_header_navigations",
+  "info": {
+    "displayName": "headerNavigation"
+  },
+  "options": {},
+  "attributes": {
+    "button": {
+      "type": "string"
+    }
+  }
+}

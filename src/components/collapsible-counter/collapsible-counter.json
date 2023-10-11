@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_collapsible_counter_collapsible_counters",
+  "info": {
+    "displayName": "collapsibleCounter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "collapsibleItems": {
+      "displayName": "collapsibleItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "collapsible-counter.collapsible-items"
+    }
+  }
+}

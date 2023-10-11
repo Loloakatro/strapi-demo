@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sertificates_sertificates",
+  "info": {
+    "displayName": "Sertificates",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "sertificates": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

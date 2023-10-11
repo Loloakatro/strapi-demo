@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_course_concept_concept_items",
+  "info": {
+    "displayName": "conceptItems"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

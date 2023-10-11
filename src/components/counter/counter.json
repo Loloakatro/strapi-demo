@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_counter_counters",
+  "info": {
+    "displayName": "Counter",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "items": {
+      "displayName": "counter-items",
+      "type": "component",
+      "repeatable": true,
+      "component": "counter.counter-items"
+    }
+  }
+}

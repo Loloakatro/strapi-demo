@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_course_study_abouts",
+  "info": {
+    "displayName": "about"
+  },
+  "options": {},
+  "attributes": {
+    "regularTextRow1": {
+      "type": "text"
+    },
+    "regularTextRow2": {
+      "type": "text"
+    },
+    "regularTextRow3": {
+      "type": "text"
+    },
+    "boldTextRow": {
+      "type": "text"
+    },
+    "portrait": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

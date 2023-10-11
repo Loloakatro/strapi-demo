@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_course_plans_plan_features",
+  "info": {
+    "displayName": "planFeatures",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "available": {
+      "type": "boolean"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

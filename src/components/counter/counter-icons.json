@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_counter_counter_icons",
+  "info": {
+    "displayName": "counterIcons"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
