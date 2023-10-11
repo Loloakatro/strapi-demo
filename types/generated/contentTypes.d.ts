@@ -693,6 +693,7 @@ export interface ApiGeneralSettingGeneralSetting extends Schema.SingleType {
     instagramLink: Attribute.String;
     ogImage: Attribute.Media;
     siteLogo: Attribute.Media;
+    previewVideo: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -727,7 +728,6 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
     metaDescription: Attribute.Text;
     Hero: Attribute.Component<'hero.hero'>;
     counter: Attribute.Component<'counter.counter'>;
-    courseFeatures: Attribute.Component<'course-features.course-features'>;
     courseResults: Attribute.Component<'course-results.course-results'>;
     courseProgram: Attribute.Component<'course-program.course-program'>;
     coursePlans: Attribute.Component<'course-plans.course-plans'>;

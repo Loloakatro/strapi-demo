@@ -30,12 +30,6 @@
       "repeatable": false,
       "component": "counter.counter"
     },
-    "courseFeatures": {
-      "displayName": "course-features",
-      "type": "component",
-      "repeatable": false,
-      "component": "course-features.course-features"
-    },
     "courseResults": {
       "displayName": "courseResults",
       "type": "component",

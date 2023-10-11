@@ -42,6 +42,13 @@
         "videos",
         "audios"
       ]
+    },
+    "previewVideo": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
