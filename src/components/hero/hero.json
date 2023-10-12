@@ -2,7 +2,8 @@
   "collectionName": "components_hero_heroes",
   "info": {
     "displayName": "Hero",
-    "icon": "picture"
+    "icon": "picture",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -22,6 +23,17 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageMobile": {
       "allowedTypes": [
         "images",
         "files",
