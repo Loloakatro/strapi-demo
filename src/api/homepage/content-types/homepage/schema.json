@@ -88,7 +88,7 @@
       "repeatable": false,
       "component": "faq.faq"
     },
-    "collapsibleCounter": {
+    "courseWho": {
       "type": "component",
       "repeatable": false,
       "component": "collapsible-counter.collapsible-counter"
