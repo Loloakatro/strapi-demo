@@ -4,18 +4,19 @@
   "info": {
     "singularName": "privacy-policy",
     "pluralName": "privacy-policies",
-    "displayName": "Політика Конфіденційності"
+    "displayName": "Політика Конфіденційності",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "content": {
-      "type": "richtext"
+    "policyItems": {
+      "displayName": "policyItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-items.policy-items"
     }
   }
 }

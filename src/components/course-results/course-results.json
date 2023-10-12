@@ -2,22 +2,21 @@
   "collectionName": "components_course_results_course_results",
   "info": {
     "displayName": "courseResults",
-    "icon": "bulletList"
+    "icon": "bulletList",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "richtext"
-    },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "items": {
       "displayName": "items",
@@ -26,6 +25,9 @@
       "component": "features.items"
     },
     "button": {
+      "type": "string"
+    },
+    "title": {
       "type": "string"
     }
   }

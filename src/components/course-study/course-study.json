@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "richtext"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -34,6 +31,9 @@
       "type": "component",
       "repeatable": false,
       "component": "course-study.about"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

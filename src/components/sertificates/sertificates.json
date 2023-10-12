@@ -2,22 +2,24 @@
   "collectionName": "components_sertificates_sertificates",
   "info": {
     "displayName": "Sertificates",
-    "icon": "file"
+    "icon": "file",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "sertificates": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "title": {
-      "type": "richtext"
+      "type": "string"
     }
   }
 }

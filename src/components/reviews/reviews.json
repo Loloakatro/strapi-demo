@@ -6,18 +6,19 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "richtext"
-    },
     "subtitle": {
       "type": "string"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

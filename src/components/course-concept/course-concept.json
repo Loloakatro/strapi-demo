@@ -7,9 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "richtext"
-    },
     "subtitle": {
       "type": "text"
     },
@@ -21,6 +18,9 @@
       "type": "component",
       "repeatable": true,
       "component": "course-concept.concept-items"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

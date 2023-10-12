@@ -11,6 +11,9 @@
     },
     "number": {
       "type": "string"
+    },
+    "options": {
+      "type": "richtext"
     }
   }
 }
