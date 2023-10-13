@@ -20,6 +20,12 @@
     },
     "redirectLink": {
       "type": "string"
+    },
+    "optionsWithMark": {
+      "type": "richtext"
+    },
+    "optionsWithLock": {
+      "type": "richtext"
     }
   }
 }
