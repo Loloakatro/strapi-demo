@@ -17,6 +17,9 @@
       "type": "component",
       "repeatable": true,
       "component": "policy-items.policy-items"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
